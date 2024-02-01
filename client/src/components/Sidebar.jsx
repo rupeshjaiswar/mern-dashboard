@@ -132,7 +132,7 @@ const Sidebar = ({
               <FlexBetween color={theme.palette.secondary.main}>
                 <Box display="flex" alignItems="center" gap="0.5rem">
                   <Typography variant="h4" fontWeight="bold">
-                    ECOMVISION
+                    ANALYTICS DASHBOARD
                   </Typography>
                 </Box>
                 {!isNonMobile && (
@@ -195,7 +195,7 @@ const Sidebar = ({
 
           <Box position="absolute" bottom="2rem">
             <Divider />
-            <FlexBetween textTransform="none" gap="1rem" m="1.5rem 2rem 0 3rem">
+            {/* <FlexBetween textTransform="none" gap="1rem" m="1.5rem 2rem 0 3rem">
               <Box
                 component="img"
                 alt="profile"
@@ -226,7 +226,7 @@ const Sidebar = ({
                   fontSize: "25px ",
                 }}
               />
-            </FlexBetween>
+            </FlexBetween> */}
           </Box>
         </Drawer>
       )}
